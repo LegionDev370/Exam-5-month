@@ -1,0 +1,31 @@
+.collapse-navbar {
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  position: absolute;
+  background-color: #fff;
+}
+.collapse-navbar-none {
+  display: none;
+}
+.navigation-nav-list-collapse {
+  list-style: none;
+  margin-top: 192px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+}
+.collapse-header {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-cancel {
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  background-image: url(../../assets/cancel.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

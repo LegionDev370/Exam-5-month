@@ -1,0 +1,43 @@
+.pagination-numbers {
+  max-width: 226px;
+  margin-left: auto;
+  display: flex;
+  margin-top: 59px;
+  &-btn {
+    width: 32px;
+    height: 32px;
+    background: none;
+    border-radius: 3px;
+    border: none;
+  }
+}
+.pagination-block {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.decrement-btn {
+  width: 32px;
+  height: 32px;
+  background: #f4f4f4;
+  border-radius: 3px;
+  background-image: url(../../../components/assets/left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+.increment-btn {
+  width: 32px;
+  height: 32px;
+  background: #f4f4f4;
+  border-radius: 3px;
+  background-image: url(../../../components/assets/right-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+@media only screen and (max-width: 570px) {
+  .pagination-numbers {
+    margin: 10px auto;
+  }
+}

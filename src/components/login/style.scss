@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login{
+  height: 100vh;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 26px;
+}
+.login-wrapper-title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.form-login {
+  max-width: 350px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.form-login-title {
+  margin-bottom: 56px;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 53px;
+  color: #000000;
+}
+.input-data {
+  & > input {
+    width: 100%;
+    display: block;
+    padding: 12px 0px 12px 3px;
+    margin-bottom: 24px;
+    background: #f4f4f4;
+    border-radius: 3px;
+    border: none;
+    &:focus {
+      outline: 1px solid blue;
+    }
+  }
+}
+.form-submit-btn {
+  cursor: pointer;
+  width: 100%;
+  padding: 12px 0px;
+  display: block;
+  background: #000000;
+  color: #fff;
+  border-radius: 3px;
+  &:hover {
+    color: burlywood;
+  }
+}
+.switch-toggle {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+////dark modee//////
+
+#dark .login {
+  background-color: #0f3460;
+  color: #fff;
+}
+#dark .form-login-title {
+  color: #fff;
+}
+#dark .form-submit-btn {
+  background-color: #00a8ff;
+  border-radius: 5px;
+  border: none;
+}
+#dark .brand-logo{
+  fill: #fff;
+}

@@ -1,0 +1,66 @@
+.posts-list {
+  list-style: none;
+  margin-top: 58px;
+  max-width: 736px;
+  &-item {
+    display: flex;
+    padding-bottom: 15px;
+    flex-direction: column;
+    row-gap: 20px;
+    border-bottom: 1px solid #dfdfdf;
+  }
+}
+.posts {
+  display: flex;
+  justify-content: space-between;
+}
+.posts-title {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #777777;
+}
+.posts-subtitle {
+  max-width: 544px;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #474747;
+}
+.clock-block {
+  display: flex;
+  align-items: center;
+  column-gap: 17.5px;
+  & > img {
+    vertical-align: middle;
+  }
+  &-title {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777777;
+  }
+}
+.posts-description-title {
+  max-width: 544px;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #474747;
+}
+.posts-render {
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 50px;
+  &:hover{
+    transform: scale(1.03);
+  }
+}

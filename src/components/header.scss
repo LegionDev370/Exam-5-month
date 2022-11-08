@@ -1,0 +1,156 @@
+.navigation-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation-list-links {
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  &:hover {
+    color: aquamarine;
+  }
+}
+.navigation-nav-list {
+  max-width: 450px;
+  column-gap: 40px;
+  display: flex;
+  list-style: none;
+}
+.bars-menu {
+  display: none;
+  background: none;
+  border: none;
+}
+.form {
+  max-width: 256px;
+  & > .input-data {
+    width: 100%;
+    position: relative;
+    & > input {
+      width: 100%;
+      padding: 12px 50px 12px 12px;
+      margin-bottom: 0;
+      background: #f4f4f4;
+      border-radius: 3px;
+    }
+    & > .btn-search {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: none;
+      background: #ffba9d;
+      border-radius: 3px;
+      background-image: url(./assets/search.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+@media only screen and (max-width: 570px) {
+  .container {
+    padding: 20px !important;
+  }
+  .bars-menu {
+    display: block;
+    position: absolute;
+    top: 4%;
+    right: 0px;
+  }
+  .navigation-navbar {
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+  }
+  .brand-logo {
+    width: 120px;
+    height: 33px;
+  }
+  .navigation-nav-list {
+    display: none;
+  }
+  .form {
+    max-width: 570px;
+  }
+  .form > .input-data {
+    min-width: 340px;
+    margin-top: 25px;
+    & > input {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 1004px) {
+  .navigation-nav-list {
+    display: none;
+  }
+  .bars-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 16%;
+  }
+  .navigation-navbar {
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+  }
+  .form > .input-data {
+    min-width: 400px;
+    margin-top: 25px;
+    & > input {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .form > .input-data {
+    min-width: 550px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .bars-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10%;
+  }
+  .form > .input-data {
+    min-width: 450px;
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .form > .input-data {
+    min-width: 430px;
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 471px) {
+  .form > .input-data {
+    min-width: 380px;
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .form > .input-data {
+    min-width: 350px;
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 368px) {
+  .form > .input-data {
+    min-width: 300px;
+  }
+}
